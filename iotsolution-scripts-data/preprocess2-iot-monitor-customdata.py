@@ -133,7 +133,7 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
      microserviceid=''
       #These are the streams to preprocess
      #streamstojoin=substream + "," + substream + "," + substream
-     streamstojoin="Voltage_preprocessed_AnomProb,Current_preprocessed_AnomProb"
+     streamstojoin="age_preprocessed_AnomProb,balance_preprocessed_AnomProb,marital_preprocessed_AnomProb,job_preprocessed_AnomProb,day_preprocessed_AnomProb,loan_preprocessed_AnomProb"
 
       # You can preprocess with the following functions: MAX, MIN, SUM, AVG, COUNT, DIFF
       # here we will take max values of the arcturus-humidity, we will Diff arcturus-temperature, and average arcturus-Light_Intensity

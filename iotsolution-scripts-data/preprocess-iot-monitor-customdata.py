@@ -181,7 +181,7 @@ values=marital~\
 identifiers=job~\
 datetime=day~\
 msgid=loan~\
-latlong=lat:long1'     
+latlong=lat:long'     
 
 #     jsoncriteria='uid=entry.0.resource.id,filter:allrecords~\
 #subtopics=entry.1.resource.type.0.coding.0.code~\
